@@ -348,7 +348,7 @@ export default function Topnav({ variant = "default" }) {
                 <span className="menu-arrow">›</span>
               </a>
             </li>
-            {isLoggedIn ? (
+            {/* {isLoggedIn ? (
               <li>
                 <a href="/user-selection" onClick={closeSideMenu} className={location.pathname === '/user-selection' ? 'active' : ''}>
                   <MenuIcon 
@@ -372,7 +372,7 @@ export default function Topnav({ variant = "default" }) {
                   <span className="menu-arrow">›</span>
                 </a>
               </li>
-            )}
+            )} */}
             <li>
               <a href="/genre" onClick={closeSideMenu} className={location.pathname === '/genre' ? 'active' : ''}>
                 <MenuIcon 
